@@ -1,0 +1,21 @@
+:root {
+    --main-color: purple;
+}
+.product-card {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: var(--main-color);
+}
+.badge-sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--main-color);
+}
+.btn-heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+}
